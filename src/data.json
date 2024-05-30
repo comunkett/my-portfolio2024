@@ -1,0 +1,110 @@
+[ {
+  "named": {
+    "first": "Kevin",
+    "second": "Alfonso",
+    "last": [
+      "Lugo",
+      "Berrios"
+    ]
+  }
+},
+{
+      "dates": {
+          "age": 30,
+          "born": "11-04-93"
+      }
+},
+{
+      "skills": {
+          "frontend":["HTML5, CSS3, Javascript, React, Tailwind, Shadcn/ui, Bootstrap, Vite, storybook, astro"],
+          "backend": ["PostgreSQL", "NodeJs","Express","Sequelize","socket.io","Nest","Laravel","MySQL","PHP", "Redis","Jest","Cypress","Python","Memcached","MongoDB","JWT","0Auth","Bcrypt","GraphQL","Elasticsearch","RabbitMQ","dbdiagram","FastAPI","Django","gevent","Conda","Lambdas","PyUnit"],
+          "fullstack": ["Nginx","Axios","Redux","Webhook","Jest","Cypress","Zod","DialogFlow","Github-actions","Swagger","0Auth","Bcrypt","GraphQL","Elasticsearch","RabbitMQ","dbdiagram","FastAPI","Django","gevent","Conda","Lambdas","PyUnit"],
+          "devops":["Docker","Linux","Ubuntu","Git","Git bash","Vim","Github","Nginx","SSH","HTTP","HTTPS","DNS","FTP","SFTP","CDN","Terraform","Ansible","Github Actions","Jenkins","Vault","Prometheus","Grafana","Elastic Stack","ArgoCD","Istio","Kubernetes","Portainer","Gitlab"],
+          "blockchain":["Blockchain","Vyper","Solidity","EVM","Layer-2","Hybrid Smart Contracts","Contracts Testing","Remix","Hardhat","Foundry","Brownie","ERC-20","ERC-721","ERC-1155","Metamask","Faucets","Code coverage","Slither","Defi","NFT","DAO","IPFS","Alchemy","Moralis","ABI","Ether.js","Web3.js","Substrate","Besu","ZKP","Validium","Plasma","Sidechains","OpenZeppelin","Scrypt"],
+          "others":["Netlify","VSC","CMD","WSL","Cloudflare","AWS","Google Cloud","Linode","Digital Ocean","JSON","YAML","XML","NPM","Axios","Yarn","NestJs","Fastify","Dotenv","Postman","Nodemon","Mongoose","Prisma","Morgan","PM2","Node inspect","Github pages","Api REST","Swagger","CORS","Passport.js"]
+      },
+      "services":{
+          "stacks":["MERN","LEMP","stacks technologies"],
+          "arq":{
+              "tool":["Notion","Trello","Miro","Slack","Git","Visual Studio","Grammarly","Zapier"],
+              "ops":["Cloud pattern designs","Hashing algorithms","ETL warehouse","OWASP","Public key infraestructure","SCRUM models","Infraestructure as code","Service mesh","Cloud design pattern","Containers","Unix","UTF-8","GNU","Agile methods","Patterns design","Salesforce","Hubspot","GRPc","GitOps"],
+             "process":["Kanban","Sales funnel","Atomic design","As a service","Virtualization"],
+             "rsc":["Microservices","CI/CD","Distribuited Systems","Serverless","Service Oriented","Progressive Web Apps (PWA)"]
+          },
+          "principle":["SOLID","ACID","OOP","CQRS","CAP","TDD","DDD","MVC","MVP","MVVM"],
+          "prs":["Single responsability principle","Open-close principle","Liskov substitution principle","Interface segregation principle","Dependency inversion principle","Atomicity","Consistency","Isolation","Durability","Object Oriented Programming","Command Query Responsability Segregation","Consistency Availability Partition tolerance theorem","Test Driven Development","Domain Driven Design","Model view-controller","Model view-presenter","Model view-view/model"],
+          "kit":{
+              "pk":["CMS","PMS","ERP","CRM","SAP","RPA","EHR","PACS","HIS","Dapps","DEFI","DAOs"],
+              "dpk":["Content Management System","Project Management System","System Analytical Programmed","Customer Relationship Management","Enterprise Resource Planning","Robotic Process Automatized","Electronic Health Record","Picture Archiving and Communication System","Health Information System","Decentralized Application","Decentralized Finance","Decentralized Autonomous Organization"],
+              "seo":["SERP","CPA","CPC","SEM"],
+              "ai":["Task Management App","dashboard RPA","chat-live"]
+          },
+          "service":{
+              "0":"making a toolbox task converter plugin to Wordpress websites",
+              "1":"deploy containers in docker automatized and config with terraform",
+              "2":"find a scalable solution with NO-SQL to your business with your requirement",
+              "3":"making a intelligence platform with chat integrated with Ai/RPA process",
+              "4":"create a ERD drawing from database requirements of your business",
+              "5":"create database using good performance in PostgreSQL and connecting them to any project frontend with ORM solutions",
+              "6":"Development a full-stack project with his database integrated, frontend path, backend system with best practices, stack MERN"
+
+          }
+      }
+  },
+  {
+    "proj":[
+      {
+        "id":1,
+        "title":"E-mall",
+        "description":"E-mall is a platform that allows you to create your own store and sell your products, it has a chatbot that helps you with the purchase process, it has a dashboard where you can see the sales and the products that you have in your store, it has a payment gateway and a shipping system.",
+        "stack":["React", "Redux", "Bootstrap", "Axios", "Vite", "React-router-dom", "React-hook-form"],
+        "img":"https://firebasestorage.googleapis.com/v0/b/dataimage-84486.appspot.com/o/emall.png?alt=media&token=3dd9d41c-ab0b-402f-93d4-cbb8dd2d5973",
+        "fold":"emall-ecommerce"
+      },
+      {
+        "id":2,
+        "title":"Rentsys: widget chatbot",
+        "description":"Rentsys is a platform that allows you to create your own chatbot, it has a dashboard where you can see the conversations that your chatbot has had, it has a payment gateway and a shipping system.",
+        "stack":[],
+        "img":"https://firebasestorage.googleapis.com/v0/b/dataimage-84486.appspot.com/o/widget-chatbot.webp?alt=media&token=a4ee7f29-b4db-496e-92ee-3b622d869f03",
+        "fold":"rentsys-chatbot-rent-a-car"
+      },
+      {
+        "id":3,
+        "title":"VoteScope",
+        "description":"VoteScope is a platform that allows you to create your own chatbot, it has a dashboard where you can see the conversations that your chatbot has had, it has a payment gateway and a shipping system.",
+        "stack":[],
+        "img":"https://firebasestorage.googleapis.com/v0/b/dataimage-84486.appspot.com/o/otherdashboard.webp?alt=media&token=320b5209-7d91-4587-ab83-e64bf38a91c9",
+        "fold":"votescope-agency-dashboard"
+      }
+    ]
+  },
+  {
+    "idiomas":{
+      "0": "english",
+      "1": "spanish",
+      "2": "french",
+      "3": "italian",
+      "4": "portuguese",
+      "5": "germany",
+      "6": "ukranian"
+    },
+    "level": [
+      "C1", "C2", "B2", "B1", "A1", "A2"
+    ],
+    "normality": [
+      "EF english"
+    ]
+  },
+  {
+  "spain":{
+    "carrera":["programador web", "desarrollador web", "desarrollador de apps"],
+    "campo": ["full-stack","front-end","back-end"]
+  }
+  },
+  {
+    "bg":{
+      "bg-pro":"https://firebasestorage.googleapis.com/v0/b/dataimage-84486.appspot.com/o/bg-projects.webp?alt=media&token=8b3ff60a-d4ea-46cc-8d5b-80857dd7e479"
+    }
+  }
+]

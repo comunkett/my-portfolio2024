@@ -1,0 +1,67 @@
+ [
+        {
+          "id":1,
+          "name":"Evelyn",
+          "surname":"Garrido",
+          "ref":"classmate",
+          "img":"https://firebasestorage.googleapis.com/v0/b/dataimage-84486.appspot.com/o/people%2Feve01.png?alt=media&token=83e6ad41-50b3-4f94-a58b-392eaae5a788",
+          "dsc":"Kev have superb skills to solve every problems on stage, or issue that is presented to our project teams",
+          "links":{
+            "in":"https://www.in.com/in/evelyn-harleth-garrido-lobos/",
+            "git":"https://git.com/EveGarrido",
+            "other":"https://evelyn-garrido.netlify.app/"
+          }
+        },
+        {
+            "id":2,
+            "name":"Abraham",
+            "surname":"Umaña",
+            "ref":"growth person",
+            "img":"https://firebasestorage.googleapis.com/v0/b/dataimage-84486.appspot.com/o/people%2Fabr03.jpg?alt=media&token=729c815a-4af2-42d6-8c8e-9630a9631dc7",
+            "dsc":"Kevin, is a good professional of effort and practice",
+            "links":{
+              "in":"https://www.in.com/in/abraham-umana-delgado/",
+              "git":"https://git.com/Abraham-Umana-Delgado",
+              "other":"https://soyabrahamumanadelgado.vercel.app/"
+            }
+        },
+        {
+            "id":3,
+            "name":"Paolo",
+            "surname":"Bozzo",
+            "ref":"Founder",
+            "img":"https://firebasestorage.googleapis.com/v0/b/dataimage-84486.appspot.com/o/people%2Fboz03.jpg?alt=media&token=3c1658de-79d5-4d83-a8de-f350f0a9dcbb",
+            "dsc":"Kevin helped us train other investors about cryptocurrencies, I am very grateful for that",
+            "links":{
+              "in":"https://www.in.com/in/paolobozzoa/",
+              "git":"",
+              "other":"cryptobox.cl"
+            }
+        },
+        {
+            "id":4,
+            "name":"Leo",
+            "surname":"Valenzuela",
+            "ref":"Full-stack developer",
+            "img":"https://firebasestorage.googleapis.com/v0/b/dataimage-84486.appspot.com/o/people%2Fleo06.png?alt=media&token=4b2efedf-9b62-4666-ac90-83f1cb68a654",
+            "dsc":"Kev has a deep understanding of programming principles and architectures web in general",
+            "links":{
+              "in":"https://www.in.com/in/leonardo-v-496594274/",
+              "git":"https://git.com/dattecode",
+              "other":"https://radiant-sable-b7abf5.netlify.app/"
+            }
+        },
+        {
+            "id":5,
+            "name":"Edisson",
+            "surname":"Avila",
+            "ref":"Founder & programmer",
+            "img":"https://firebasestorage.googleapis.com/v0/b/dataimage-84486.appspot.com/o/people%2Fed05.jpg?alt=media&token=88f0458c-c3ee-458b-b93b-30264af83536",
+            "dsc":"I worked with Kevin on a 5 month project, good professional. I recommend working with him",
+            "links":{
+              "in":"https://www.linkedin.com/in/edisson-yandery-avila-lopez-887242238/",
+              "git":"https://github.com/edissonav",
+              "other":"https://portfolio-edisson-avila.netlify.app/"
+            }
+        }
+]
