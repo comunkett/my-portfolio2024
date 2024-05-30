@@ -27,7 +27,7 @@ function Home() {
           setTimeout(() => {
             console.log(`se reitera correctamente ${time}`);
             setTime((time) => time === words.length - 1 ? 0 : time + 1);
-          }, 7000);
+          }, 6000);
      
     }
         handle();
