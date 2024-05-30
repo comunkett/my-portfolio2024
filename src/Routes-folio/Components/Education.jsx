@@ -1,6 +1,6 @@
 import academlo from '../../assets/academlo.png'
-import fullstack from '../../assets/certify/Fullstack-certified.png'
-import backend from '../../assets/certify/Backend-node-certified.png'
+import fullstack from '../../assets/certify/fullstacks.png'
+import backend from '../../assets/certify/backends.png'
 
 const Education = () => {
     return (
