@@ -3,9 +3,9 @@
 //Ejemplo de componente //
 // const home = () => <h1>Home</h1> ; dónde home es el componente y el h1 es el elemento a renderizarse.
 
-import { useEffect, useState } from 'react';
+// import { useEffect, useState } from 'react';
 import { JamGithub, LogosGoogleCalendar, LogosLinkedinIcon, OuiCalendar } from '../assets/langs/array.icons';
-import data from '../data.json';
+// import data from '../data.json';
 import AboutMe from './Components/AboutMe';
 import { FaWhatsapp } from 'react-icons/fa';
 import { BiLogoGmail } from "react-icons/bi";
@@ -18,23 +18,23 @@ import Contact from './Components/Contact';
 function Home() {
 
    
-    const words = data[5].spain.campo
-    const [time, setTime] = useState(0)
+    // const words = data[5].spain.campo
+    // const [time, setTime] = useState(0)
 
-    useEffect(() => {
-        const handle = () => {
+    // useEffect(() => {
+    //     const handle = () => {
        
-          setTimeout(() => {
-            console.log(`se reitera correctamente ${time}`);
-            setTime((time) => time === words.length - 1 ? 0 : time + 1);
-          }, 6000);
+    //       setTimeout(() => {
+    //         console.log(`se reitera correctamente ${time}`);
+    //         setTime((time) => time === words.length - 1 ? 0 : time + 1);
+    //       }, 6000);
      
-    }
-        handle();
+    // }
+    //     handle();
       
-        return () => clearTimeout(handle);
+    //     return () => clearTimeout(handle);
         
-      }, [time, words.length]);
+    //   }, [time, words.length]);
    
     return (
         <section className='d-flex flex-column m-auto border border-1 border-dark pb-5 rounded-5'>
@@ -43,9 +43,9 @@ function Home() {
                 </h1>
                 <div className='d-flex justify-content-center gap-3'>
                     <span className='mx-2 h4'>Im a web developer </span>
-                   <span className='t-animated h4 text-center m-0 px-0'>
+                   {/* <span className='t-animated h4 text-center m-0 px-0'>
                     {words[time]}
-                    </span> 
+                    </span>  */}
                 </div>
                 {/* <button onClick={handle}>button</button> */}
             <div className="container d-flex justify-content-center align-items-center h-100 py-2 m-auto">

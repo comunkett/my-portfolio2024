@@ -23,8 +23,8 @@ const Contact = () => {
                 <p className="text-outter text-center" style={{width:"100%", fontSize:"35px", lineHeight:"45px", marginBottom:"120px"}}>
                     &quot;I am currently learning, advancing on my path as a full stack programmer, IT project manager and creator of valuable content.
                     &quot; <br />
-                    <p style={{fontSize:"23px", fontStyle:"italic"}}> kevdev-11 <strong style={{color:'lightblue'}}>/github</strong></p>
                 </p>
+                    <p style={{fontSize:"23px", fontStyle:"italic"}}> kevdev-11 <strong style={{color:'lightblue'}}>/github</strong></p>
                 </div>
                 <div className=''>
                     <img src={fondo1} style={{width:"400px", mask:"linear-gradient( 90deg, transparent, black 40%)", filter:"grayscale(0.5)", borderRadius:"30px"}} alt="img-profiles" />
@@ -37,10 +37,10 @@ const Contact = () => {
                     </span>
                     </div>
                 <h1 className='text-middle' 
-                style={{ fontSize: "40px", 
+                style={{ fontSize: "35px", 
                 marginTop: "-5px", 
                 width:"80%", 
-                marginBottom:"40px" }}>You could contact me to more details. Contact like project management</h1>
+                marginBottom:"40px" }}>You could contact me to more details <br /> As project manager I could make your request easy</h1>
                <div className='d-flex w-100'>
                <Form></Form>
                <div className='d-flex flex-column w-100'>

@@ -8,7 +8,7 @@ const Reviewers = ({refs}) => {
   console.log(refs);
 
     return (
-        <section className='d-flex h-100' style={{width:"260px"}}>
+        <section className='d-flex h-100 w-100'>
     <div className="card d-flex bg-transparent border-none container w-100 p-0">
         <div className=' d-flex justify-content-center'>
     <img className="img-reviewer" src={refs.img} alt="Card image cap"/>

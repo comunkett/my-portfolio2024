@@ -8,7 +8,7 @@ function Header(){
 
 return(
     <>
-    <header className="header-bar w-100 h-20 pb-4">
+    <header className="header-bar w-100 pt-4 pb-4">
   <nav className="navbar container w-100 navbar-expand-lg px-5">
   <div className="navbar-brand" >
   <NavLink to="/">

@@ -21,8 +21,34 @@ import refer from "../../../refer.json";
 import { MdDesignServices } from "react-icons/md";
 import { BsFillFileEarmarkPostFill } from "react-icons/bs";
 import { BsDiscord } from "react-icons/bs";
+import { useEffect } from 'react';
 
-const AboutMe = () => /* console.log(refer);*/ /* const ref = refer*/ (
+const AboutMe = () => {
+
+  useEffect(() => {
+    if (!window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+        addAnimation();
+    }
+}, []);
+
+const addAnimation = () => {
+    const scrollers = document.querySelectorAll(".scroller");
+
+    scrollers.forEach(scroller => {
+        scroller.setAttribute('data-animated', true);
+
+        const scrollInner = scroller.querySelector('.scroll-inner');
+        const scrollContent = Array.from(scrollInner.children);
+
+        scrollContent.forEach(item => {
+            const duplicatedItems = item.cloneNode(true);
+            duplicatedItems.setAttribute('aria-hidden', true);
+            scrollInner.appendChild(duplicatedItems);
+        });
+    });
+};
+
+  return (
   <>
     <section className="container-sm" style={{ marginTop: "100px", marginBottom: "-40px" }}>
       <div id="about" className="text-init mt-4">
@@ -42,14 +68,16 @@ const AboutMe = () => /* console.log(refer);*/ /* const ref = refer*/ (
         <p style={{ fontStyle: "italic", color: "whitesmoke", fontSize: "13px" }}>&quot;because my main mission is to serve those who have trusted me, <br /> leave me a message of recognition, <strong style={{ color: "azure" }}>I aprecciate it a lot&quot;</strong></p>
       </div>
       <div className="row m-auto py-5">
-        <div className="card-box-ref d-flex gap-4 justify-content-center py-4">
+        <div className="scroller py-4" data-speed="slow" data-direction="right">
+          <ul className='scroll-inner py-2'>
           {refer.map((array) => {
             return (
-              <li className="card-ref border border-1 border-secondary py-2 mx-2" key={array.id}>
+              <li className="card-ref" key={array.id}>
                 <Reviewers refs={array} />
               </li>
             );
           })}
+          </ul>
         </div>
         <section className="mt-5 pb-5">
           <div className="bg-dark" style={{
@@ -230,6 +258,6 @@ const AboutMe = () => /* console.log(refer);*/ /* const ref = refer*/ (
       </div>
     </section>
   </>
-);
+)};
 
 export default AboutMe;
